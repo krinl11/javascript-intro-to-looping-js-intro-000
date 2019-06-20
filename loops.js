@@ -15,8 +15,10 @@ function whileLoop(n) {
     return "done"
 }
 
-function doWhileLoop() {
-  function incrementVariable(i) {
+function doWhileLoop(i) {
+  const i = 0;
+  
+  function incrementVariable(n) {
   i = i + 1;
   return i;
 }
