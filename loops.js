@@ -16,9 +16,9 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(i) {
-  const i = 0;
-  
-  function incrementVariable(n) {
+  var i = 0;
+
+  function incrementVariable() {
   i = i + 1;
   return i;
 }
